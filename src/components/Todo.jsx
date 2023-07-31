@@ -1,7 +1,6 @@
 import {RiDeleteBin7Line}  from 'react-icons/ri'
 
 const Todo = ({ todo,id,handleDelTodo,handleStatus }) => {
-  lenoftodos=todo.length;
   return (
     <li key={id} style={{}}>
       <input
