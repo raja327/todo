@@ -1,0 +1,59 @@
+.main{
+    background-color: var(--text-dim);
+    height: 80vh;
+}
+.form-addtodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0;
+}
+.form-addtodo input[type="text"]{
+    width: 40%;
+    padding: 1.4rem 3rem;
+    border: none;
+}
+.form-addtodo input[type="text"]:focus-visible{
+    outline: none;
+}
+.form-addtodo .btn{
+    padding: 1.3rem 3rem;
+    border: 2px solid white;
+    font-weight: bold;
+    border-start-end-radius: 30%;
+    background-color: var(--text-dim);
+}
+.form-addtodo .btn:hover{
+    color: var(--bg-color);
+}
+.main .listoftodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.main .listoftodo ul{
+    /* border: 1px solid var(--bg-color) */
+}
+.main .listoftodo li{
+    list-style-type: none;
+    padding:.6rem;
+    margin: 1rem 0;
+    background-color:var(--text-white);
+    border-top-right-radius: 20px;
+    box-shadow: var(--box-shadow);
+    
+}
+.main .listoftodo input[type="checkbox"]{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.main .listoftodo li .sm-btn{
+    padding:1px 2px;
+    margin:0 13px;
+    border: none;
+}
+.main .listoftodo li .sm-btn:hover{
+    border: 1px solid var(--bg-color);
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+   ::-webkit-scrollbar{
+    display: none;
+   }
+}
+:root{
+    --bg-color:#dc2626;
+    --bg-gray:#ea2626;
+    --text-black:#292524;
+    --text-white:#f9fafb;
+    --text-dim:#d6d3d1;
+    --box-shadow: 0 15px 10px -12px #dc262671;
+}

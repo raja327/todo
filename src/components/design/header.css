@@ -1,0 +1,29 @@
+header{
+    background-color: var(--bg-color);
+    
+}
+
+.headerTodo{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    /* border: 1px solid var(--text-color); */
+    padding: 20px 5%;
+}
+.headerTodo .logoArea{
+    color: var(--text-white);
+}
+.headerTodo input[type="text"]{
+padding: .5rem 1rem;
+border: transparent;
+}
+.headerTodo input[type="text"],.FilterArea .dropdown:focus-visible{
+   outline: none;
+}
+.FilterArea .dropdown{
+    padding:.5rem 1rem;
+    margin-left: .2rem;
+}
+.FilterArea .select-items div{
+    padding:.5rem 1rem;
+}
